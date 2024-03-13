@@ -17,6 +17,6 @@ public class BaseDocument implements Serializable {
     private static final long serialVersionUID = 8571261118900116242L;
     @Id
     private Object id;
-    private Instant createData;
-    private Instant updateData;
+    private Instant createdAt;
+    private Instant updatedAt;
 }
