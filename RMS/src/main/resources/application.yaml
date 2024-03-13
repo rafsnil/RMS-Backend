@@ -13,3 +13,5 @@ spring:
       password: root
       auto-index-creation: true
       authentication-database: admin
+
+secret-key: 84a203aae7e2b67a271d7a938689506a8d7728f7b95a3b03621f93d7aa2a16fa
