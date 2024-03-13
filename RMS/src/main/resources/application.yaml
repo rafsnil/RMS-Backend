@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: RMS
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: RMS
+      username: root
+      password: root
+      auto-index-creation: true
+      authentication-database: admin
